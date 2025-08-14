@@ -1,0 +1,7 @@
+sales_agent_topic_type = "SalesAgent"
+issues_and_repairs_agent_topic_type = "IssuesAndRepairsAgent"
+product_finder_agent_topic_type = "ProductFinder"
+product_recommender_agent_topic_type = "ProductRecommender"
+travel_product_recommender_agent_topic_type = "TravelProductRecommender"
+triage_agent_topic_type = "TriageAgent"
+user_topic_type = "User"

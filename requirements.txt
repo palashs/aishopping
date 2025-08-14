@@ -1,0 +1,21 @@
+autogen-core>=0.5.4
+autogen-ext[openai,azure]>=0.5.4
+fastapi==0.115.12
+uvicorn==0.34.2
+PyYAML==6.0.2
+ 
+ 
+fastapi                          # For building the API
+uvicorn                         # ASGI server for running FastAPI apps
+aiofiles                        # For handling file uploads asynchronously
+requests                        # For making HTTP requests
+pillow                         # For image processing
+python-dotenv                   # For loading environment variables from a .env file
+autogen-core                    # For the core functionalities of the agent system
+autogen-agentchat               # For the agent chat functionalities
+autogen-ext                     # For extensions related to the agent system
+openai                          # For OpenAI API interface (if needed)
+tiktoken                        # Tokenization library for OpenAI models
+python-multipart                # For handling multipart/form-data (file uploads)
+jinja2                          # For templating (if needed in the future)
+loguru                          # For logging
